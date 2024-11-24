@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection {
+    @apply bg-blue-100;
+}
+
+p {
+    @apply text-stone-600;
+}
+
+a {
+    @apply underline;
+    @apply underline-offset-4;
+    &:hover {
+        @apply text-stone-800;
+    }
+}
