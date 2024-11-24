@@ -29,7 +29,7 @@ const Nav: React.FC = () => {
 
     return (
         <nav
-            className="w-full px-96 max-2xl:px-80 max-xl:px-60 max-lg:px-20 max-md:px-10 py-4 font-semibold flex gap-6 fixed top-0 bg-gradient-to-b from-white to-transparent transition-all ease-out duration-[250ms]"
+            className="font-[family-name:var(--font-geist-mono)] w-full px-96 max-2xl:px-80 max-xl:px-60 max-lg:px-20 max-md:px-10 py-4 font-semibold flex gap-6 fixed top-0 bg-gradient-to-b from-white to-transparent transition-all ease-out duration-[250ms]"
             style={{ transform: visible ? "translateY(0)" : "translateY(-3.5rem)" }}>
             <NavItem text="Home" href="/"/>
             <NavItem text="Archive" href="/archive"/>
